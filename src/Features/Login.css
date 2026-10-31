@@ -1,0 +1,65 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 60vw;
+}
+
+.login-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-sec label {
+  font-weight: bold;
+}
+
+.login-sec input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.login-sec2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.remember-me input {
+  width: 20px;
+  height: 20px;
+}
+
+.forgot p {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.or {
+  text-align: center;
+}
+
+.or a {
+    text-decoration: underline;
+    font-style: italic;
+}
